@@ -59,15 +59,15 @@ membros da equipe.
 
 ### index.html
 
-![Validação do index.html](https://github.com/davidsousadev/avaliacao-front-end/blob/main/images/Captura de tela de 2024-07-14 13-07-08.png)
+![Validação do index.html](images/Captura%20de%20tela%20de%202024-07-14%2013-07-08.png)
 
 ### portfolio.html
 
-![Validação do portfolio.html](https://github.com/davidsousadev/avaliacao-front-end/blob/main/images/Captura de tela de 2024-07-14 13-08-47.png)
+![Validação do portfolio.html](images/Captura%20de%20tela%20de%202024-07-14%2013-08-47.png)
 
 ### contato.html
 
-![Validação do contato.html](https://github.com/davidsousadev/avaliacao-front-end/blob/main/images/Captura de tela de 2024-07-14 13-11-53.png)
+![Validação do contato.html](images/Captura%20de%20tela%20de%202024-07-14%2013-11-53.png)
 
 
 
