@@ -11,6 +11,12 @@ body {
 header {
     background-color: #327ebd;
     color: #fff;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    margin-top: -150px;
+    position: fixed;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -20,9 +26,10 @@ header {
     margin: 0 auto;
 }
 h1{
+    text-align: center;
     color: #333;
 }
-h2, h3 {
+h2, h3,h4 {
     color: #327ebd;
 }
 
@@ -52,6 +59,7 @@ nav ul li a:hover {
 
 /* Estilos do conteúdo principal */
 main {
+    margin-top: 150px;
     padding: 20px 0;
 }
 
@@ -82,6 +90,8 @@ article {
     text-align: center;
     margin-top: 10px;
     color: #777;
+    display: block;
+    
 }
 
 .skills,
@@ -96,7 +106,17 @@ article {
     flex: 1 1 300px;
     margin-bottom: 20px;
 }
+/*Style Contato*/
+ul.logos li{
+    list-style: none;
+    display: inline-block;
+    flex-direction: row;
 
+}
+ul.logos li a img{
+    width: 50px;
+    height: 50px;
+}
 /* Formulário de contato */
 form {
     max-width: 600px;
@@ -143,18 +163,39 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    
 }
 
 footer p {
-    margin: 0;
+    margin-top: 20px;
+}
+footer p span{
+    margin-top: -15px;
+    display: block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-color: #327ebd;
+    border-radius: 50px;
+}
+footer p span a {
+    color: #f8f8f8;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
+    header {
+        height: 250px;
+    }
     nav ul li {
         display: block;
         margin-bottom: 10px;
@@ -168,4 +209,11 @@ footer p {
     .education .profile {
         flex: 1 1 100%;
     }
+    .project figcaption {
+        display: block;
+        font-size: 5pt;
+    }
+    
+        
+
 }
