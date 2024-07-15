@@ -8,7 +8,11 @@
 ## Alunos: CARLOS SAMUEL FREITAS BARBOSA - Matrícula: 2023211MTDS0027
 ## DAVID SOUSA DA SILVA - Matrícula: 2023211MTDS0022
 
-Criação de um Site Pessoal com Duas Páginas
+### Página Principal
+
+![Captura de Tela - index.html](images/Captura%20de%20tela%20de%202024-07-15%2010-23-11.png)
+
+#### Criação de um Site Pessoal com Duas Páginas
 
 Desenvolva, em equipe de até 3 pessoas, um site pessoal composto por uma página
 inicial (index.html) sobre os membros da equipe e uma página de portfólio
@@ -65,9 +69,7 @@ membros da equipe.
 
 ![Validação do portfolio.html](images/Captura%20de%20tela%20de%202024-07-14%2013-08-47.png)
 
-### contato.html
 
-![Validação do contato.html](images/Captura%20de%20tela%20de%202024-07-14%2013-11-53.png)
 
 
 
